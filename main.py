@@ -4,7 +4,9 @@ import random
 lotto_num=range(1,46)
 
 def buttonClick():
-    print(random.sample(lotto_num,6))
+    #print(random.sample(lotto_num,6))
+    label=tkinter.Label(window,text=str(random.sample(lotto_num,6)))
+    label.pack() #pack 함수가 뭐지?
 
 window=tkinter.Tk()
 window.title("Lotto")
