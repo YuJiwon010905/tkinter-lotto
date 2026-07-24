@@ -6,7 +6,7 @@ lotto_num=range(1,46)
 def buttonClick():
     #print(random.sample(lotto_num,6))
     label=tkinter.Label(window,text=str(random.sample(lotto_num,6)))
-    label.pack() #pack 함수가 뭐지?
+    label.pack() #pack 함수가 뭐지? -> 화면에표시하겠다
 
 window=tkinter.Tk()
 window.title("Lotto")
